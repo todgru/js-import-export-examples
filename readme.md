@@ -11,4 +11,4 @@ ESM loading allows some interesting uses:
 
 Common JS copies module exports to a new memory location. The article shows an example of how this can impact referencing module state.
 
-Finally, because of the ESM loading process in, cyclic refereces are no longer an issue. Note, I could not reproduce the cyclic issue in Common JS, but the issue was also present in the ES Module, contrary to what the article suggested.
+Finally, because of the ESM loading process in, cyclic refereces are no longer an issue. Note, I could reproduce the cyclic issue in Common JS, but the issue was also present in the ES Module, contrary to what the article suggested.
